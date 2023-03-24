@@ -1,0 +1,69 @@
+.container-header {
+  background-color: aqua;
+}
+
+.logo {
+  padding-left: 200px;
+}
+
+.container-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+  background-color: aqua;
+}
+
+.titulo {
+  padding-left: 50px;
+}
+
+.container-quem-somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 90px;
+}
+
+.quem-somos {
+  max-width: 30%;
+}
+
+.servicos {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.icones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.btn-btn-primary {
+  background-color: red;
+  color: #ffff;
+}
+
+.perguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.perguntas h2 {
+  padding-bottom: 30px;
+}
+
+.btn-btn-second {
+  background-color: #ffff;
+}
+
+footer {
+  padding-top: 30px;
+}
