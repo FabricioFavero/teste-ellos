@@ -1,6 +1,6 @@
-.container-header {
+/* .container-header {
   background-color: aqua;
-}
+} */
 
 .logo {
   padding-left: 200px;
@@ -15,15 +15,21 @@
   flex-direction: row;
   justify-content: space-around;
   padding-top: 40px;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-image: url(img/capa-blog-coding-iniciante.jpg);
 }
 
 .titulo {
   padding-left: 50px;
+  color: #ffff;
 }
 
 .form {
   margin: 20px;
+}
+
+.form h5 {
+  color: #ffff;
 }
 
 .btn-btn-primary-enviar {
@@ -86,4 +92,10 @@
 
 footer {
   padding-top: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container-top {
+    width: 100%;
+  }
 }

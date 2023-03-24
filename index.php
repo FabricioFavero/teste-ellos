@@ -1,9 +1,3 @@
-<?php
-include_once "./includes/includes.php";
-session_start();
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -19,14 +13,15 @@ session_start();
 
 <body>
 
-    <div class="container-header">
-        <div class="logo">
-            <img class="img-logo" src="./img/logo-dev130px.png" alt="">
-        </div>
-    </div>
 
     <div class="container-top">
         <div class="titulo">
+            <div class="container-header">
+                <div class="logo">
+                    <img class="img-logo" src="./img/logo-dev130px.png" alt="">
+                </div>
+            </div>
+
             <h1>Somos uma empresa voltada a <br>Gamificação de WebApp's.</h1>
             <p> Aqui na Gen Group desenvolvemos WebApp's gamificados para seus<br> treinamentos de forma intuitiva e prática. </p>
         </div>
@@ -110,7 +105,7 @@ session_start();
     <!-- perguntas botão -->
     <div class="perguntas">
         <h2> FAQ - Perguntas Frequentes</h2>
-        <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="d-grid gap-2 col-7 mx-auto">
             <button class="btn-btn-second" type="button"><strong>Como posso criar meu próprio teste?</strong></button>
             <button class="btn-btn-second" type="button"><strong>Como posso acessar a plataforma no treinamento?</strong></button>
             <button class="btn-btn-second" type="button"><strong>Como faço para incluir novos usuários rapidamente?</strong></button>
