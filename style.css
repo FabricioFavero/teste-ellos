@@ -9,7 +9,7 @@
   padding-top: 40px;
   /* background-color: aqua; */
   background-image: url(img/capa-blog-coding-iniciante.jpg);
-  height: 500px;
+  height: 670px;
 }
 
 .titulo {
@@ -18,7 +18,7 @@
 }
 
 .form {
-  margin: 20px;
+  margin: 90px;
 }
 
 .form h5 {
@@ -87,8 +87,9 @@ footer {
   padding-top: 30px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   .container-top {
     width: 100%;
+    background-image: url(img/capa-blog-coding-iniciante.jpg);
   }
 }
