@@ -16,11 +16,11 @@
 
     <div class="container-top">
         <div class="titulo">
-            <div class="container-header">
-                <div class="logo">
-                    <img class="img-logo" src="./img/logo-dev130px.png" alt="">
-                </div>
+
+            <div class="logo">
+                <img class="img-logo" src="./img/logo-dev130px.png" alt="">
             </div>
+
 
             <h1>Somos uma empresa voltada a <br>Gamificação de WebApp's.</h1>
             <p> Aqui na Gen Group desenvolvemos WebApp's gamificados para seus<br> treinamentos de forma intuitiva e prática. </p>
