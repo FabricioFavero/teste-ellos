@@ -22,12 +22,17 @@
   padding-left: 50px;
 }
 
+.form {
+  margin: 20px;
+}
+
 .btn-btn-primary-enviar {
   width: 100%;
   background-color: blue;
   border: none;
   border-radius: 2em;
   color: #ffff;
+  margin-bottom: 2em;
 }
 
 .container-quem-somos {

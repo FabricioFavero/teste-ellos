@@ -1,5 +1,5 @@
 <?php
-include_once "./includes/connection.php";
+include_once "./includes/includes.php";
 session_start();
 
 ?>
@@ -44,7 +44,7 @@ session_start();
                 </div>
 
                 <div class="tel">
-                    <input placeholder="DDD+ TELEFONE:" type="tel" id="phone" name="telefone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <input placeholder="DDD+ TELEFONE:" type="tel" id="phone" name="telefone">
                 </div>
 
                 <div class="mb-3 form-txt">
