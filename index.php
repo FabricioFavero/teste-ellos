@@ -8,18 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/js/javascript">
     <link rel="stylesheet" href="./style.css">
-    <title>Ellos Design</title>
+    <title>Gen Group</title>
 </head>
 
 <body>
 
     <div class="container-header">
         <div class="logo">
-            <img class="img-logo" src="../img/logo-dev130px.png" alt="">
+            <img class="img-logo" src="./img/logo-dev130px.png" alt="">
         </div>
     </div>
 
-    <div class="container-grid">
+    <div class="container-top">
         <div class="titulo">
             <h1>Somos uma empresa voltada a <br>Gamificação de WebApp's.</h1>
             <p> Aqui na Gen Group desenvolvemos WebApp's gamificados para seus<br> treinamentos de forma intuitiva e prática. </p>
@@ -27,24 +27,26 @@
 
         <!-- formulário -->
         <form action=" ./sql.php" method="POST">
-            <h5>(11) 94000-4026</h5>
-            <div class="nome">
-                <input placeholder="NOME:" name="nome" type="text">
-            </div>
+            <div class="form">
+                <h5>(11) 94000-4026</h5>
+                <div class="nome">
+                    <input placeholder="NOME:" name="nome" type="text">
+                </div>
 
-            <div class="email">
-                <input placeholder="E-MAIL:" name="email" type="email" class="form-email" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
+                <div class="email">
+                    <input placeholder="E-MAIL:" name="email" type="email" class="form-email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
 
-            <div class="tel">
-                <input placeholder="DDD+ TELEFONE:" type="tel" id="phone" name="telefone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-            </div>
+                <div class="tel">
+                    <input placeholder="DDD+ TELEFONE:" type="tel" id="phone" name="telefone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
 
-            <div class="mb-3 form-txt">
-                <textarea placeholder="COMO PODEMOS AJUDAR?" name="" id="" cols="23" rows="2"><?php if (!empty($linha)) echo $linha['ajudar'] ?></textarea></textarea>
-            </div>
-            <div class="button">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="mb-3 form-txt">
+                    <textarea placeholder="COMO PODEMOS AJUDAR?" name="ajudar" id="" cols="23" rows="2"><?php if (!empty($linha)) echo $linha['ajudar'] ?></textarea></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit" class="btn-btn-primary-enviar">Enviar</button>
+                </div>
             </div>
         </form>
     </div>
@@ -54,12 +56,12 @@
     <div class="container-quem-somos">
 
         <div class="quem-somos">
-            <img src="../img/img-empresa.jpeg" class="img-fluid" alt="...">
+            <img src="./img/img-empresa.jpeg" class="img-fluid" alt="...">
         </div>
 
         <div class="titulo-qs">
             <h2>Quem Somos</h2>
-            <p>Somos fechado com o comprometimento, aqui na Gen Group fazemos o possível <br>e o impossível para que nosso cliente sempre esteja satisfeito. Com o nosso<br> App Gamificado ajudamos a facilitar seus treinamentos e negócios.</p>
+            <p>Somos fechado com o comprometimento,<br> aqui na Gen Group fazemos o possível <br>e o impossível para que nosso cliente<br> sempre esteja satisfeito. Com o nosso<br> App Gamificado ajudamos a facilitar<br> seus treinamentos e negócios.</p>
         </div>
     </div>
 
@@ -95,8 +97,8 @@
     </div>
     <!-- icone loja benefícios -->
 
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn-btn-primary" type="button"><strong>Contrate<strong></button>
+    <div class="d-grid gap-3 col-6 mx-auto">
+        <button class="contrate" type="button"><strong>Contrate<strong></button>
     </div>
 
     <!-- perguntas botão -->

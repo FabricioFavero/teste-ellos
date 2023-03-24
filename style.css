@@ -6,7 +6,11 @@
   padding-left: 200px;
 }
 
-.container-grid {
+.img-logo {
+  margin-top: 50px;
+}
+
+.container-top {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -16,6 +20,14 @@
 
 .titulo {
   padding-left: 50px;
+}
+
+.btn-btn-primary-enviar {
+  width: 100%;
+  background-color: blue;
+  border: none;
+  border-radius: 2em;
+  color: #ffff;
 }
 
 .container-quem-somos {
@@ -31,7 +43,7 @@
 
 .servicos {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 150px;
 }
 
 .icones {
@@ -43,9 +55,12 @@
   align-items: center;
 }
 
-.btn-btn-primary {
+.contrate {
   background-color: red;
   color: #ffff;
+  border: none;
+  border-radius: 2em;
+  margin-top: 3em;
 }
 
 .perguntas {
